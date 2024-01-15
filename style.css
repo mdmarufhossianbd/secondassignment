@@ -4,3 +4,118 @@
     box-sizing: border-box;
     font-family: 'Mulish', sans-serif;
 }
+
+/* CSS Variables */
+:root {
+    --primary_color: #FF5400;
+    --secondary_color: #131318;
+    --description_color: #5A5A5D;
+    --title_color: #fff;
+    --manu_color: #424247;
+    --bannner_section_color: #ffffff4d;
+}
+
+/* shared styles */
+body {
+    margin: 50px auto;
+    max-width: 1440px;
+}
+
+/* header area styles */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.site_name {
+    display: flex;
+    font-size: 2.25rem;
+    column-gap: 16px;
+}
+
+.site_name_2nd {
+    color: var(--primary_color);
+}
+
+.menu_bar ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu_bar ul a {
+    text-decoration: none;
+    margin-left: 44px;
+    font-size: 1.13rem;
+}
+
+.manu_bar_active {
+    color: var(--primary_color);
+    font-weight: 700;
+}
+
+/* banner section styles */
+.banner {
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('Images/Group\ 13\ \(1\)\ \(1\).png');
+    /* margin: 106px 185px; */
+    padding: 106px 185px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    margin-top: 49px;
+}
+
+.banner_content {
+    width: 675px;
+    margin: auto;
+    text-align: center;
+}
+
+.banner_title {
+    color: var(--title_color);
+    font-size: 64px;
+    font-weight: 800;
+    text-align: center;
+    padding-bottom: 24px;
+}
+
+.banner_description {
+    color: var(--title_color);
+    margin-bottom: 50px;
+}
+
+.search {
+    border-radius: 8px;
+    background: var(--bannner_section_color);
+    display: flex;
+    justify-content: center;
+    column-gap: 24px;
+    padding: 16px;
+    width: 800px;
+    margin: auto;
+}
+
+.search input,
+select,
+.submit_button {
+    padding: 16px;
+    border-style: none;
+    border-radius: 8px;
+    width: 174px;
+    color: #13131880;
+}
+
+.submit_button {
+    color: var(--title_color);
+    background-color: var(--primary_color);
+    font-weight: 700;
+}
+
+/* popular tours section styles */
+
+.popular_tours_section {
+    display: flex;
+    margin: 100px 0px;
+    column-gap: 53px;
+}
