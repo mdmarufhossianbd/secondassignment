@@ -3,6 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Mulish', sans-serif;
+    color: var(--description_color)
 }
 
 /* CSS Variables */
@@ -309,4 +310,78 @@ select,
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
     grid-column: 2 / span 2;
+}
+
+/* Deals and Discounts Section styles */
+.deals_content {
+    width: 645px;
+    margin: 100px auto 50px;
+    text-align: center;
+}
+
+.deals_title {
+    color: var(--secondary_color);
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.deals1 {
+    background: url(Images/Group\ 39.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.deals1_details {
+    position: relative;
+    left: 250px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: #ffffffcc;
+    backdrop-filter: blur(2.5px);
+    /* margin: auto; */
+    padding: 50px 77px 50px;
+    width: 789px;
+}
+
+.deals1_details i {
+    color: var(--primary_color);
+}
+
+.deals1_details p>span {
+    margin-left: 24px;
+}
+
+.deals1_title {
+    margin-top: 26px;
+    margin-bottom: 16px;
+    color: var(--secondary_color);
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.deals1_details_description {
+    margin-bottom: 16px;
+    color: var(--description_color);
+}
+
+.deals1_details_price {
+    color: var(--primary_color);
+    font-size: 1.3rem;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.book_now {
+    color: var(--title_color);
+    border-style: none;
+    background: var(--primary_color);
+    padding: 14px 25px;
+    border-radius: 8px;
 }
