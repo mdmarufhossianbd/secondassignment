@@ -21,6 +21,12 @@ body {
     max-width: 1440px;
 }
 
+.popular_tours_title {
+    color: var(--secondary_color);
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
 /* header area styles */
 
 nav {
@@ -116,6 +122,31 @@ select,
 
 .popular_tours_section {
     display: flex;
+    justify-content: space-between;
     margin: 100px 0px;
-    column-gap: 53px;
+    column-gap: 200px;
+}
+
+.content_area {
+    color: var(--description_color);
+}
+
+.content_area p {
+    margin: 26px 0px;
+    text-align: justify;
+}
+
+.content_area li {
+    margin: 26px 0px;
+}
+
+.read_more_button {
+    color: var(--title_color);
+    background-color: var(--primary_color);
+    border-style: none;
+    padding: 15px 35px;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    font-weight: 800;
+    margin-top: 60px;
 }
