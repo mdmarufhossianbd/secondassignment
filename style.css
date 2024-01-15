@@ -53,6 +53,7 @@ nav {
     text-decoration: none;
     margin-left: 44px;
     font-size: 1.13rem;
+    /* color: var(--secondary_color); */
 }
 
 .manu_bar_active {
@@ -149,4 +150,110 @@ select,
     border-radius: 8px;
     font-weight: 800;
     margin-top: 60px;
+}
+
+/* destination section styles */
+
+.destination_content {
+    text-align: center;
+}
+
+.destination_content>h2 {
+    color: var(--secondary_color);
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.destination_content>p {
+    width: 645px;
+    margin: auto;
+    margin-bottom: 40px;
+    color: var(--description_color);
+}
+
+.destination_details {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 24px;
+    text-align: center;
+}
+
+.Maldives {
+    background: url(Images/Rectangle\ 5.png);
+    grid-column: auto / span 2;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    color: var(--title_color);
+    padding: 132px 227px;
+
+}
+
+.Indonesia {
+    grid-column: auto / span 2;
+    background: url(Images/Rectangle\ 8.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    color: var(--title_color);
+    padding: 132px 227px;
+}
+
+.Srilanka {
+    background: url(Images/Rectangle\ 6.png);
+    grid-column: auto / span 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    color: var(--title_color);
+    padding: 125px 130px;
+}
+
+.America {
+    background: url(Images/Rectangle\ 7.png);
+    grid-column: auto / span 2;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    color: var(--title_color);
+    padding: 125px 137px;
+}
+
+.Kashmir {
+    background: url(Images/Rectangle\ 11.png);
+    grid-column: auto / span 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    color: var(--title_color);
+    padding: 125px 130px;
+}
+
+.Bangladesh {
+    background: url(Images/Rectangle\ 11.png);
+    grid-column: auto / span 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    color: var(--title_color);
+    padding: 125px 130px;
+}
+
+.Bandarban {
+    background: url(Images/Rectangle\ 10.png);
+    grid-column: auto / span 3;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    color: var(--title_color);
+    padding: 125px 130px;
 }
