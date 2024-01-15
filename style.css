@@ -244,7 +244,7 @@ select,
     background-position: center;
     border-radius: 16px;
     color: var(--title_color);
-    padding: 125px 130px;
+    padding: 132px 155px;
 }
 
 .Bandarban {
@@ -255,5 +255,58 @@ select,
     background-position: center;
     border-radius: 16px;
     color: var(--title_color);
-    padding: 125px 130px;
+    padding: 132px 260px;
+}
+
+/* why choose us section */
+
+/* .why_choose_us {
+    display: flex;
+} */
+.why_choose_us_content {
+    text-align: center;
+    width: 645px;
+    margin: 100px auto;
+}
+
+.why_choose_us_title {
+    color: var(--secondary_color);
+    font-size: 2.5rem;
+    margin-bottom: 24px;
+}
+
+.why_choose_us_content_box {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.why_choose_us_title2 {
+    margin: 32px 0px 16px;
+}
+
+.hotal,
+.maps,
+.best_price {
+    border-radius: 16px;
+    padding: 32px 55px 32px;
+}
+
+.hotal {
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    grid-column: auto / span 2;
+}
+
+.maps {
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    grid-column: auto / span 2;
+}
+
+.best_price {
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    grid-column: 2 / span 2;
 }
