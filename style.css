@@ -43,6 +43,7 @@ header {
 nav {
     display: flex;
     justify-content: space-between;
+
 }
 
 .site_name {
@@ -85,7 +86,7 @@ nav {
 }
 
 .banner_content {
-    width: 675px;
+    width: 100%;
     margin: auto;
     text-align: center;
 }
@@ -558,5 +559,58 @@ footer {
 footer hr {
     width: 872px;
     margin: 50px auto;
+}
 
+/* responsive styles */
+
+/* mobile */
+
+@media screen and (max-width: 600px) {
+
+    header,
+    .popular_tours_section,
+    .destination {
+        margin: 20px 20px;
+    }
+
+    header nav,
+    .popular_tours_section {
+        flex-direction: column;
+    }
+
+    .banner {
+        padding: 32px;
+    }
+
+    .banner_title {
+        font-size: 1.3rem;
+        font-weight: 800;
+    }
+
+    .search {
+        border-radius: 8px;
+        background: var(--bannner_section_color);
+        flex-direction: column;
+        align-items: center;
+        row-gap: 16px;
+        /* padding: 16px; */
+        width: 100%;
+        margin: auto;
+    }
+
+    .search input,
+    select,
+    .submit_button {
+        width: 100%;
+    }
+
+    .read_more_button {
+        margin-bottom: 24px;
+        padding: 15px 35px;
+    }
+
+    .destination_details {
+        display: flex;
+        flex-direction: column;
+    }
 }
