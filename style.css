@@ -17,8 +17,16 @@
 
 /* shared styles */
 body {
-    margin: 50px auto 0px;
-    width: 1440px;
+    margin: 0px auto 0px;
+}
+
+header,
+.destination,
+.why_choose_us,
+.deals_section,
+.popular_tours_section,
+.newsletter_section {
+    margin: auto 135px;
 }
 
 .popular_tours_title {
@@ -28,6 +36,9 @@ body {
 }
 
 /* header area styles */
+header {
+    margin-top: 50px;
+}
 
 nav {
     display: flex;
@@ -124,8 +135,9 @@ select,
 .popular_tours_section {
     display: flex;
     justify-content: space-between;
-    margin: 100px 0px;
-    column-gap: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    column-gap: 50px;
 }
 
 .content_area {
@@ -145,22 +157,21 @@ select,
     color: var(--title_color);
     background-color: var(--primary_color);
     border-style: none;
-    padding: 15px 35px;
+    padding: 15px 15px;
     font-size: 1.2rem;
     border-radius: 8px;
     font-weight: 800;
-    margin-top: 60px;
+    margin-top: 32px;
 }
 
 /* destination section styles */
 
 .destination_content {
     text-align: center;
-    /* color: var(--title_color); */
 }
 
 .destination_content>h2 {
-    color: var(--title_color);
+    color: var(--secondary_color);
     font-size: 2.5rem;
     font-weight: 800;
     margin-bottom: 24px;
@@ -179,6 +190,7 @@ select,
     grid-template-rows: repeat(3, 1fr);
     gap: 24px;
     text-align: center;
+    margin: 0px 13px;
 }
 
 .Maldives {
@@ -274,6 +286,8 @@ select,
     color: var(--secondary_color);
     font-size: 2.5rem;
     margin-bottom: 24px;
+    font-weight: 800;
+
 }
 
 .why_choose_us_content_box {
@@ -340,7 +354,7 @@ select,
 
 .deals1_details {
     position: relative;
-    left: 250px;
+    right: -344px;
     border-radius: 16px;
     border: 2px solid #FFF;
     background: #ffffffcc;
@@ -400,7 +414,7 @@ select,
 
 .deals2_details {
     position: relative;
-    left: -250px;
+    left: -350px;
     border-radius: 16px;
     border: 2px solid #FFF;
     background: #ffffffcc;
@@ -471,7 +485,7 @@ form input {
     background: rgba(19, 19, 24, 0.05);
 }
 
-.submit_button {
+form .submit_button {
     color: var(--title_color);
     background-color: var(--primary_color);
     border-style: none;
@@ -502,8 +516,8 @@ form input {
     padding: 20px 0px;
     color: var(--title_color);
     position: relative;
-    bottom: -255px;
-    right: -648px;
+    bottom: -250px;
+    right: -835px;
     rotate: 325deg;
 }
 
@@ -521,6 +535,12 @@ footer {
     display: flex;
     gap: 16px;
     justify-content: center;
+    margin-bottom: 15px;
+}
+
+.footer_description {
+    width: 769px;
+    margin: auto;
 }
 
 .footer_icons {
