@@ -274,9 +274,6 @@ select,
 
 /* why choose us section */
 
-/* .why_choose_us {
-    display: flex;
-} */
 .why_choose_us_content {
     text-align: center;
     width: 645px;
@@ -569,7 +566,10 @@ footer hr {
 
     header,
     .popular_tours_section,
-    .destination {
+    .destination,
+    .why_choose_us,
+    .deals_section,
+    .newsletter_section {
         margin: 20px 20px;
     }
 
@@ -589,11 +589,9 @@ footer hr {
 
     .search {
         border-radius: 8px;
-        background: var(--bannner_section_color);
         flex-direction: column;
         align-items: center;
         row-gap: 16px;
-        /* padding: 16px; */
         width: 100%;
         margin: auto;
     }
@@ -612,5 +610,58 @@ footer hr {
     .destination_details {
         display: flex;
         flex-direction: column;
+    }
+
+    .why_choose_us_content_box {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .destination_content>p {
+        width: 100%;
+    }
+
+    .deals_content {
+        width: 100%;
+        margin: auto;
+        margin-bottom: 16px;
+    }
+
+    .deals1_details {
+        padding: 24px;
+        width: 90%;
+        right: auto;
+        bottom: -50px;
+    }
+
+    .deals2_details {
+        padding: 24px;
+        width: 90%;
+        left: auto;
+        bottom: -50px;
+    }
+
+    .newsletter_section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .newsletter_offer {
+        right: -275px;
+    }
+
+    footer {
+        margin-top: 50px;
+        padding: 20px;
+    }
+
+    .footer_description {
+        width: 100%;
+    }
+
+    footer hr {
+        width: 100%;
+        margin: 20px auto;
     }
 }
