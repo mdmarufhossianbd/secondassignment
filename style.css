@@ -17,8 +17,8 @@
 
 /* shared styles */
 body {
-    margin: 50px auto;
-    max-width: 1440px;
+    margin: 50px auto 0px;
+    width: 1440px;
 }
 
 .popular_tours_title {
@@ -415,4 +415,128 @@ select,
 
 .deals2_details p>span {
     margin-left: 24px;
+}
+
+.package_button {
+    width: 250px;
+    margin: auto;
+}
+
+div>.package_btn {
+    color: var(--title_color);
+    background-color: var(--primary_color);
+    border-style: none;
+    padding: 15px 35px;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    font-weight: 800;
+    margin-top: 60px;
+}
+
+/* perfect place */
+
+.newsletter_section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.newsletter_box {
+    padding: 40px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    grid-column: auto / 1;
+}
+
+.newsletter_title {
+    font-size: 1.3rem;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+
+.newsletter_box hr {
+    margin: 24px 0px;
+}
+
+.newsletter_box form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    padding: 16px;
+    margin-bottom: 16px;
+    border-style: none;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.submit_button {
+    color: var(--title_color);
+    background-color: var(--primary_color);
+    border-style: none;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    font-weight: 800;
+    margin-top: 8px;
+    width: 100%;
+
+}
+
+.newsletter_offer_box {
+    background: url(Images/Rectangle\ 8\ \(1\).png);
+    grid-column: 1 / 4;
+    height: 422px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+}
+
+.newsletter_offer {
+    width: 275px;
+    height: 100px;
+    background: var(--primary_color);
+    border-radius: 16px;
+    text-align: center;
+    padding: 20px 0px;
+    color: var(--title_color);
+    position: relative;
+    bottom: -255px;
+    right: -648px;
+    rotate: 325deg;
+}
+
+/* footer styles */
+footer {
+    background: rgba(19, 19, 24, 0.05);
+    margin-top: 100px;
+    padding: 110px;
+    text-align: center;
+}
+
+.site_name_footer {
+    font-size: 2rem;
+    font-weight: 800;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+
+.footer_icons {
+    display: flex;
+    column-gap: 20px;
+    justify-content: center;
+    margin-top: 33px;
+
+}
+
+.footer_icons a {
+    color: var(--description_color);
+}
+
+footer hr {
+    width: 872px;
+    margin: 50px auto;
+
 }
