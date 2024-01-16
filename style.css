@@ -30,6 +30,14 @@ header,
     margin: auto 135px;
 }
 
+.mobile_manu {
+    display: none;
+    position: absolute;
+    right: 45px;
+    top: 35px;
+    font-size: 1.5rem;
+}
+
 .popular_tours_title {
     color: var(--secondary_color);
     font-size: 2.5rem;
@@ -44,7 +52,6 @@ header {
 nav {
     display: flex;
     justify-content: space-between;
-
 }
 
 .site_name {
@@ -66,7 +73,6 @@ nav {
     text-decoration: none;
     margin-left: 44px;
     font-size: 1.13rem;
-    /* color: var(--secondary_color); */
 }
 
 .manu_bar_active {
@@ -166,7 +172,7 @@ select,
     margin-top: 32px;
 }
 
-/* destination section styles */
+/* Destination Section styles */
 
 .destination_content {
     text-align: center;
@@ -448,6 +454,12 @@ div>.package_btn {
 
 /* perfect place */
 
+.perfect_place_list {
+    font-weight: 700;
+}
+
+/* newsletter section */
+
 .newsletter_section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -520,7 +532,7 @@ form .submit_button {
     rotate: 325deg;
 }
 
-/* footer styles */
+/* footer section styles */
 footer {
     background: rgba(19, 19, 24, 0.05);
     margin-top: 100px;
@@ -611,6 +623,7 @@ footer hr {
 
 @media screen and (max-width: 600px) {
 
+    /* header section */
     header,
     .popular_tours_section,
     .destination,
@@ -626,6 +639,14 @@ footer hr {
         flex-direction: column;
     }
 
+    .mobile_manu {
+        display: inline;
+    }
+
+    div ul>li {
+        display: none;
+    }
+
     .banner {
         padding: 32px;
     }
@@ -634,6 +655,8 @@ footer hr {
         font-size: 1.3rem;
         font-weight: 800;
     }
+
+    /* bannar section */
 
     .search {
         border-radius: 8px;
@@ -653,15 +676,21 @@ footer hr {
         width: 100%;
     }
 
+    /* Our Popular Tours */
+
     .read_more_button {
         margin-bottom: 24px;
         padding: 15px 35px;
     }
 
+    /* Destination Section */
+
     .destination_details {
         display: flex;
         flex-direction: column;
     }
+
+    /* why choose us section */
 
     .why_choose_us_content {
         width: 100%;
@@ -693,6 +722,8 @@ footer hr {
         bottom: -50px;
     }
 
+    /* newsletter section */
+
     .newsletter_section {
         display: flex;
         flex-direction: column;
@@ -701,6 +732,8 @@ footer hr {
     .newsletter_offer {
         right: -275px;
     }
+
+    /* app section */
 
     .app_section {
         flex-direction: column;
@@ -727,6 +760,7 @@ footer hr {
         padding: 100px;
     }
 
+    /* footer section */
     footer {
         margin-top: 50px;
         padding: 20px;
