@@ -25,7 +25,8 @@ header,
 .why_choose_us,
 .deals_section,
 .popular_tours_section,
-.newsletter_section {
+.newsletter_section,
+.app_section {
     margin: auto 135px;
 }
 
@@ -556,6 +557,53 @@ footer {
 footer hr {
     width: 872px;
     margin: 50px auto;
+}
+
+/* Mobile App Section */
+
+.app_section {
+    display: flex;
+    margin-top: 100px;
+    column-gap: 200px;
+    /* align-items: center; */
+}
+
+.app_section_left_side {
+    border: 1px solid #FF5400;
+    border-radius: 16px;
+    padding: 150px 50px 150px 150px;
+}
+
+.app_section_left_side_title {
+    color: var(--secondary_color);
+    font-size: 2.0rem;
+    font-weight: 800;
+    padding-bottom: 24px;
+}
+
+.app_section_icon>i {
+    font-size: 5rem;
+    padding: 25px;
+}
+
+.icon_star i {
+    color: #FF5400;
+}
+
+.app_section_right_side {
+    background: #FF5400;
+    padding: 150px 150px 150px 150px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.app_section_right_side button {
+    padding: 24px 35px;
+    border-style: none;
+    color: var(--primary_color);
+    font-size: 2.0rem;
 }
 
 /* responsive styles */
