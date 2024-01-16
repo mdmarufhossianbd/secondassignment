@@ -598,7 +598,10 @@ footer hr {
 
     .search input,
     select,
-    .submit_button {
+    .submit_button,
+    .destination_content>p,
+    .img img,
+    .footer_description {
         width: 100%;
     }
 
@@ -612,14 +615,14 @@ footer hr {
         flex-direction: column;
     }
 
+    .why_choose_us_content {
+        width: 100%;
+        margin: 20px auto;
+    }
+
     .why_choose_us_content_box {
         display: flex;
         flex-direction: column;
-        width: 100%;
-    }
-
-    .destination_content>p {
-        width: 100%;
     }
 
     .deals_content {
@@ -654,10 +657,6 @@ footer hr {
     footer {
         margin-top: 50px;
         padding: 20px;
-    }
-
-    .footer_description {
-        width: 100%;
     }
 
     footer hr {
