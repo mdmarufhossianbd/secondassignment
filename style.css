@@ -565,7 +565,6 @@ footer hr {
     display: flex;
     margin-top: 100px;
     column-gap: 200px;
-    /* align-items: center; */
 }
 
 .app_section_left_side {
@@ -581,9 +580,9 @@ footer hr {
     padding-bottom: 24px;
 }
 
-.app_section_icon>i {
+.app_section_icon_content>i {
     font-size: 5rem;
-    padding: 25px;
+    margin-top: 50px;
 }
 
 .icon_star i {
@@ -617,7 +616,8 @@ footer hr {
     .destination,
     .why_choose_us,
     .deals_section,
-    .newsletter_section {
+    .newsletter_section,
+    .app_section {
         margin: 20px 20px;
     }
 
@@ -700,6 +700,31 @@ footer hr {
 
     .newsletter_offer {
         right: -275px;
+    }
+
+    .app_section {
+        flex-direction: column;
+        row-gap: 25px;
+    }
+
+    .app_section_icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        column-gap: 24px;
+    }
+
+    .app_section_left_side {
+        padding: 30px;
+    }
+
+    .app_section_icon_content>i {
+        font-size: 5rem;
+        padding: 25px;
+    }
+
+    .app_section_right_side {
+        padding: 100px;
     }
 
     footer {
